@@ -39,10 +39,11 @@
 </style>
 </head>
 <body class="font-lato">
-    <header class="md:container md:mx-auto mb-20">
-        <nav >
-            <div class="navbar  bg-[#F85559] mt-10 rounded-full  ">
-                <div class="flex-1">
+    <header class="md:container md:mx-auto mb-20 lg:p-0 px-5">
+        <nav class="  " >
+            
+            <div class="navbar  bg-[#F85559] mt-10 rounded-full   ">
+                <div class="flex-1 flex-row-reverse lg:flex-row justify-between lg:justify-between">
                     <div class="navbar-start hidden lg:flex">
                         <ul class="menu text-base menu-horizontal px-1 text-white">
                             <li><a>Home</a></li>
@@ -61,26 +62,26 @@
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-base shadow bg-base-100 rounded-box w-52">
+                            class="menu menu-sm left-[-50%]  dropdown-content mt-3 z-[1] p-2 text-base shadow bg-base-100 rounded-box w-[100px]">
                             <li><a>Home</a></li>
                             <li><a>Shop</a></li>
                             <li><a>News</a></li>
                             <li><a>Contact</a></li>
-                            <li><input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto relative rounded-full "  /></li>
+                            <!-- <li><input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto relative rounded-full "  /></li> -->
                         </ul>
                     </div>
                      
                        <div class=" navbar-center flex">
                         <img src="images/logo.png" alt="">
-                        <a class="btn btn-ghost normal-case text-xl lg: text-4xl text-white">Fruit Burst</a>
+                        <a class="btn btn-ghost normal-case text-xl font-lato lg:text-4xl text-white">Fruit Burst</a>
                        </div>
 
                       
-                       <div class="navbar-end flex justify-end">
+                       <div class="navbar-end flex justify-end hidden lg:inline-block lg:text-right ">
                        
-                                    <button class="btn hidden lg:block btn-ghost">
+                                    <button class="btn  btn-ghost">
                                         <label for="">
-                                            <input type="text" placeholder="Search" class="input  input-bordered rounded-full   w-24 md:w-auto" />
+                                            <input type="text" placeholder="Search" class="input  input-bordered rounded-full  w-24 md:w-auto" />
                                            
                                             
                                         </label>
@@ -439,7 +440,7 @@
 
         </section>
         <!-- Meet the team section -->
-        <section class="my-24">
+        <section class="my-24 lg:p-0 px-5">
             <div id="slide1" class="carousel-item relative w-full ">
                 <div class="hero min-h-screen  " style="background-image : url(images/banner1.png);">
                     <div class="hero-overlay bg-opacity-60"></div>
@@ -561,7 +562,7 @@
                         </div>
                     </div>
                     <div>
-                        <h2 class="text-2xl lg:text-start mb-1 text-center"><span class="border-b-2 border-[#121212]">Fresh is </span>
+                        <h2 class="text-2xl lg:text-start mb-1 text-center"><span class="border-b-2 border-[#121212] w-8 mx-auto">Fresh is </span>
                             Best
                         </h2>
                         <p class="text-xs lg:text-start text-[ #12121299] text-center">Professional employees are there for you to pick <br> the most amazing and fresh fruits.
